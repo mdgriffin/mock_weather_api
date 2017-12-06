@@ -1,5 +1,9 @@
 {
   "darksky": {
+  "forecast": {
+  "52.3272,-9.781": {
+  "us12": {
+  "en": {
     "latitude": 52.3272,
     "longitude": -9.781,
     "timezone": "Europe/Dublin",
@@ -203,8 +207,8 @@
       "units": "si"
     },
     "offset": 0
-  },
-  "wunderground": 
+  }}}}},
+ "wunderground": 
 {
   "response": {
   "version":"0.1",
