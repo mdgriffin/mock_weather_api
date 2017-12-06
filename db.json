@@ -1,5 +1,5 @@
 {
-  "wunderground": {
+  "darksky": {
     "latitude": 52.3272,
     "longitude": -9.781,
     "timezone": "Europe/Dublin",
@@ -203,5 +203,99 @@
       "units": "si"
     },
     "offset": 0
+  },
+  "wunderground": 
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
   }
+   }
+  ,   "current_observation": {
+      "image": {
+      "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title":"Weather Underground",
+      "link":"http://www.wunderground.com"
+      },
+      "display_location": {
+      "full":"Ardfert, Ireland",
+      "city":"Ardfert",
+      "state":"KY",
+      "state_name":"Ireland",
+      "country":"IE",
+      "country_iso3166":"IE",
+      "zip":"00000",
+      "magic":"12",
+      "wmo":"WTRAL",
+      "latitude":"52.33000183",
+      "longitude":"-9.77999973",
+      "elevation":"7.0"
+      },
+      "observation_location": {
+      "full":"Kerry Airport, ",
+      "city":"Kerry Airport",
+      "state":"",
+      "country":"IE",
+      "country_iso3166":"IE",
+      "latitude":"52.18000031",
+      "longitude":"-9.52000046",
+      "elevation":"112 ft"
+      },
+      "estimated": {
+      },
+      "station_id":"EIKY",
+      "observation_time":"Last Updated on December 6, 1:30 PM GMT",
+      "observation_time_rfc822":"Wed, 06 Dec 2017 13:30:00 +0000",
+      "observation_epoch":"1512567000",
+      "local_time_rfc822":"Wed, 06 Dec 2017 13:56:56 +0000",
+      "local_epoch":"1512568616",
+      "local_tz_short":"GMT",
+      "local_tz_long":"Europe/Dublin",
+      "local_tz_offset":"+0000",
+      "weather":"Overcast",
+      "temperature_string":"55 F (13 C)",
+      "temp_f":55,
+      "temp_c":13,
+      "relative_humidity":"94%",
+      "wind_string":"From the South at 16 MPH",
+      "wind_dir":"South",
+      "wind_degrees":190,
+      "wind_mph":16,
+      "wind_gust_mph":0,
+      "wind_kph":26,
+      "wind_gust_kph":0,
+      "pressure_mb":"1012",
+      "pressure_in":"29.89",
+      "pressure_trend":"-",
+      "dewpoint_string":"54 F (12 C)",
+      "dewpoint_f":54,
+      "dewpoint_c":12,
+      "heat_index_string":"NA",
+      "heat_index_f":"NA",
+      "heat_index_c":"NA",
+      "windchill_string":"NA",
+      "windchill_f":"NA",
+      "windchill_c":"NA",
+      "feelslike_string":"55 F (13 C)",
+      "feelslike_f":"55",
+      "feelslike_c":"13",
+      "visibility_mi":"6.2",
+      "visibility_km":"10.0",
+      "solarradiation":"--",
+      "UV":"0","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+      "precip_1hr_in":"-9999.00",
+      "precip_1hr_metric":"--",
+      "precip_today_string":"0.00 in (0.0 mm)",
+      "precip_today_in":"0.00",
+      "precip_today_metric":"0.0",
+      "icon":"cloudy",
+      "icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+      "forecast_url":"http://www.wunderground.com/global/stations/WTRAL.html",
+      "history_url":"http://www.wunderground.com/history/airport/EIKY/2017/12/6/DailyHistory.html",
+      "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=52.18000031,-9.52000046",
+      "nowcast":""
+   }
+} 
 }
